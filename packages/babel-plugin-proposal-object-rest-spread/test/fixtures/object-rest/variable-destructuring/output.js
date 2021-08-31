@@ -116,18 +116,16 @@ const {
   a19
 } = _ref2,
       y19 = babelHelpers.objectWithoutProperties(_ref2, ["a19"]);
+const {} = z(),
+      y20 = babelHelpers.extends({}, z().x20);
 
 const _z12 = z(),
-      {} = _z12,
-      y20 = babelHelpers.extends({}, _z12.x20);
-
-const _z13 = z(),
       {
   x22: {
     q22
   } = {}
-} = _z13,
-      y22 = babelHelpers.objectWithoutProperties(_z13.x22, ["q22"]);
+} = _z12,
+      y22 = babelHelpers.objectWithoutProperties(_z12.x22, ["q22"]);
 
 const [[...y23] = []] = z();
 const [_ref3 = []] = z();

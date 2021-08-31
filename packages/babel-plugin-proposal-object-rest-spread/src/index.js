@@ -268,7 +268,7 @@ export default declare((api, opts) => {
 
       // If this is an AssignmentPattern, always return true else the RHS will be duplicated
       if (innerNode.type === "AssignmentPattern" && innerNode.left) {
-        return true;
+        innerNode = innerNode.left;
       }
     }
 
